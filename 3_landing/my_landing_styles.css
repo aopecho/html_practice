@@ -20,11 +20,6 @@
   background-color: #33CCFF;
 }
 
-.blurb {
-	margin-left: 2px;
-	margin-right: 2px;
-	padding: 10px;
-}
 
 td {
   text-align: left;
@@ -40,6 +35,10 @@ table {
 body {
       font-family: 'Avenir', sans-serif;
     }
+
+p {
+  padding: 10px;
+}
 
 
 h1  {
@@ -57,4 +56,9 @@ h2 {
   color: #000000;
   font-size: 14pt;
   padding-left: 10px;
+}
+
+.pix {
+  border-radius: 10%;
+  padding: 50px;
 }
