@@ -1,9 +1,60 @@
 /* This is here to give everything a red border, just to make it easier to see while developing. */
-* {
-  box-sizing: border-box;
 
-  border: thin red solid;
-}
 /* You can turn it off if you want. (delete or comment it out) */
 
 /* Write your rules below */
+
+
+.button {
+  border-radius: 10px;
+  box-shadow: 1px 1px 1px 0 gray;
+  color: #000000;
+  padding: 10px;
+  text-align: center;
+  text-decoration: none;
+  font-family: 'JosefinSlab'
+
+  display: block;
+  width: 100%;
+
+  background-color: #33CCFF;
+}
+
+.blurb {
+	margin-left: 2px;
+	margin-right: 2px;
+	padding: 10px;
+}
+
+td {
+  text-align: left;
+  padding-left: 2px;
+  vertical-align: top;
+}
+
+table {
+	border-radius: 2px;
+	background-color: #F2FBFE;
+}
+
+body {
+      font-family: 'Avenir', sans-serif;
+    }
+
+
+h1  {
+  font-family: 'JosefinSlab', serif;
+  font-weight: 100;
+  color: #000000;
+  font-size: 32pt;
+  font-weight: 100px;
+  padding-left: 10px;
+}
+
+h2 {
+  font-family: 'JosefinSlab', sans-serif;
+  font-weight: 80;
+  color: #000000;
+  font-size: 14pt;
+  padding-left: 10px;
+}

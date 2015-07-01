@@ -1,20 +1,46 @@
-/*
 
-Some references you may find useful:
+body {
+	background-image: url('grey.png');
+}
 
-https://developer.mozilla.org/en-US/docs/Web/CSS/background-image#Syntax
-https://developer.mozilla.org/en-US/docs/Web/CSS/border#Syntax
-https://developer.mozilla.org/en-US/docs/Web/CSS/margin#Syntax
-https://developer.mozilla.org/en-US/docs/Web/CSS/color#Syntax
-https://developer.mozilla.org/en-US/docs/Web/CSS/font-size#Syntax
-https://developer.mozilla.org/en-US/docs/Web/CSS/height#Syntax
-https://developer.mozilla.org/en-US/docs/Web/CSS/text-align#Syntax
-https://developer.mozilla.org/en-US/docs/Web/CSS/text-shadow#Syntax
-https://developer.mozilla.org/en-US/docs/Web/CSS/width#Syntax
-http://www.colorzilla.com/gradient-editor/
 
-Note that I've included the background image for the page in this folder, "grey.png"
+.rank {
+	font-size: 1000;
+	color: #D2691E;
+}
 
-Write your CSS rules below.
+.dark_square {
+	background-color: #4682B4;
+	height: 1200px;
+	width: 1200px;
+	border border-radius: 20px;
+	border-color: #ffffff;
+}
 
-*/
+.square {
+	color: #87CEEB;
+	font-size: 50px;
+	height: 120px;
+	width: 120px;
+	border border-radius: 20px;
+	border-color: #ffffff;
+	text-align: center;
+}
+
+.board {
+	margin: 50px auto;
+	border: thick solid #ffffff;
+	display: block;
+}
+
+.dark_square {
+  background: #009999; /* Old browsers */
+  background: -moz-linear-gradient(-45deg,  #009999 0%, #1d7373 100%); /* FF3.6+ */
+  background: -webkit-gradient(linear, left top, right bottom, color-stop(0%,#009999), color-stop(100%,#1d7373)); /* Chrome,Safari4+ */
+  background: -webkit-linear-gradient(-45deg,  #009999 0%,#1d7373 100%); /* Chrome10+,Safari5.1+ */
+  background: -o-linear-gradient(-45deg,  #009999 0%,#1d7373 100%); /* Opera 11.10+ */
+  background: -ms-linear-gradient(-45deg,  #009999 0%,#1d7373 100%); /* IE10+ */
+  background: linear-gradient(135deg,  #009999 0%,#1d7373 100%); /* W3C */
+  filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#009999', endColorstr='#1d7373',GradientType=1 ); /* IE6-9 fallback on horizontal gradient */
+}
+
